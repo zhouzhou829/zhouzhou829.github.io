@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="https://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My New Hugo Site</title>
+  <meta name="description" content="" />
+
+  
+  <link type="text/css" rel="stylesheet" href="http://zhouzhou829.github.io/css/print.css" media="print">
+  <link type="text/css" rel="stylesheet" href="http://zhouzhou829.github.io/css/poole.css">
+  <link type="text/css" rel="stylesheet" href="http://zhouzhou829.github.io/css/syntax.css">
+  <link type="text/css" rel="stylesheet" href="http://zhouzhou829.github.io/css/hyde.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|PT+Sans:400,400i,700">
+
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="http://zhouzhou829.github.io/index.xml" rel="alternate" type="application/rss+xml" title="My New Hugo Site" />
+  
+</head>
+
+  <body class=" ">
+  <aside class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="http://zhouzhou829.github.io/"><h1>My New Hugo Site</h1></a>
+      <p class="lead">
+      An elegant open source and mobile first theme for <a href="http://hugo.spf13.com">hugo</a> made by <a href="http://twitter.com/mdo">@mdo</a>. Originally made for Jekyll.
+      </p>
+    </div>
+
+    <nav>
+      <ul class="sidebar-nav">
+        <li><a href="http://zhouzhou829.github.io/">Home</a> </li>
+        
+      </ul>
+    </nav>
+
+    <p>&copy; 2021. All rights reserved. </p>
+  </div>
+</aside>
+
+    <main class="content container">
+    <div class="posts">
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://zhouzhou829.github.io/about2/">优化</a>
+  </h1>
+  <time datetime="2015-10-25T08:36:54-0700" class="post-date">Sun, Oct 25, 2015</time>
+  网站为什么做搜索引擎优化 有效增强搜索引擎友好度提高排名，增加流量，促进网站的营销  首先如果我们要让网站出现在目标客户的搜索结果中，我们一定要让搜索引擎收录我们的网站，那么怎么判断我们的网站已经被搜索引擎收录？ 我们可以随便打开个搜索引擎 输入site: 你的网站地址 例如： 若有返回结果 证明你的网站已经被搜索引擎收录
+如果没有返回结果，我们可以到对应搜索引擎提供的提交地址中，提交我们的网站地址 如果你的网址出现在已收录的网站上，那么搜索引擎的小蜘蛛也会对应收录你的网站信息
+搜索引擎优化的流程    挖掘关键词（整理目标客户关键词列表）    根据关键词创建内容即相关页面    取得搜索引擎的信任 常见的方法通过外部链接提高内容权威度（比如你的网站被大佬的网站外链）    收集网站数据，优化网站结构及内容    了解搜索结果的构成 一般搜索结果由 标题 描述 网址 构成 对应的html结构如下
+   title标签中的内容及页面标题对应搜索结果的标题    如果有meta标签 name=&quot;description&rdquo; content=&quot;xxxxxx&rdquo; 里面的没有，搜索引擎会获取内容开头或者是关键词附近的文字    网址 网站的地址作为搜索结果的地址，尽量简短    影响搜索引擎排名的几个规则    页面标题包含关键词 搜索引擎会认为页面标题是页面最重要的内容，页面标题会作为搜索结果的一部分，网站的每个页面，可以尽量用不同的页面标题，增加被搜索引擎收录更多的机会    提高内容相关度 ，内容中出现关键词 ，尽量在网站内容开始的时候就出现关键词。关键词出现的位置也会影响排名    内容使用关键词相关词汇 例如 apple 与平板    段落标题出现关键词    强调加粗文字显示关键词    网站内部链接（文本与链接要相关） 引导搜索引擎收录更多内容    网站的性能（请求次数及加载资源的时常）    前端根据相关规则的seo规范 一 、布局优化（简单扁平化的结构）
+  
+  <div class="read-more-link">
+    <a href="/about2/">Read More…</a>
+  </div>
+  
+</article><article class="post">
+  <h1 class="post-title">
+    <a href="http://zhouzhou829.github.io/about/">异步</a>
+  </h1>
+  <time datetime="2015-10-25T08:36:54-0700" class="post-date">Sun, Oct 25, 2015</time>
+  一 、event loop和宏、微任务相关知识理解   1 为什么js会是单线程的？
+因为js是运行在浏览器的脚本语言，主要操作有dom节点的操作及用户之间的互动，假如js是多线程的，如果用户连续操作dom的增删改那么我们要以那个线程为准呢，为了避免这些问题，所以js在设计之初就定为单线程
+  2 任务队列及event loop 事件循环
+由于js单线程的原因，所有任务都要排队等待一个一个执行，如果cpu空闲的情况下依旧等待类似ajax的网络请求结束后在往下执行，js设计者意识到这个问题这时主线程完全可以不管IO设备，挂起处于等待中的任务，先运行排在后面的任务。等到IO设备返回了结果，再回过头，把挂起的任务继续执行下去。 所以分成了异步任务和同步任务，具体整理下任务的运行机制
+（1）所有同步任务都在主线程上执行，形成一个执行栈
+（2）主线程之外，还存在一个&quot;任务队列&quot;异步的进入Event Table并注册函数 ，当指定的事情完成时，Event Table会将这个函数移入Event Queue。
+（3）一旦&quot;执行栈&quot;中的所有同步任务执行完毕（js引擎存在monitoring process进程，会持续不断的检查主线程执行栈是否为空），系统就会读取&quot;任务队列&rdquo;，看看里面有哪些事件。那些对应的异步任务，于是结束等待状态，进入执行栈，开始执行
+（4）主线程不断重复上面的第三步。
+  3 宏任务和微任务
+宏任务和微任务均为异步任务，有区别的是他们的执行顺序，Event Loop的走向和取值 每一个宏任务和微任务执行完的之后都判断是否还有微任务，如果有微任务继续执行微任务，没有则开始下一个宏任务，这样的一个循环
+我们常见的微任务及宏任务 宏任务：包括整体代码script，setTimeout，setInterval、setImmediate。 微任务：原生Promise(有些实现的promise将then方法放到了宏任务中)、process.nextTick、MutationObserver
+  Promise.resolve().then(()=&gt;{ console.log('Promise1') setTimeout(()=&gt;{ console.log('setTimeout2')。 },0) }) setTimeout(()=&gt;{ console.log('setTimeout1') Promise.resolve().then(()=&gt;{ console.log('Promise2') }) },0) 解析 两个异步任务直接进入任务队列，首先执行微任务 Promise.resolve() //输出Promise1 这一轮的微任务执行完毕那么任务队列会新加一个setTimeout2的异步任务 并继续执行任务对列下一个宏任务第二个setTimeout 会输出setTimeout1，然后在任务队列中加如一个微任务 console.log('Promise2') ，检测到微任务未执行，执行微任务Promise2后，再是下一轮宏任务setTimeout2 console.log('1'); setTimeout(function() { console.log('2'); process.nextTick(function() { console.log('3'); }) new Promise(function(resolve) { console.log('4'); resolve(); }).
+  
+  <div class="read-more-link">
+    <a href="/about/">Read More…</a>
+  </div>
+  
+</article>
+</div>
+    </main>
+
+    
+      
+    
+  </body>
+</html>
